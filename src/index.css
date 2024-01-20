@@ -1,13 +1,645 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: #f5f5f7 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+section {
+  margin-bottom: 4%;
+}
+.website-card-external {
+  background-color: white;
+  border-radius: 35px 35px 35px 35px;
+}
+
+.website-card-internal {
+  background-color: white;
+  border-radius: 35px 35px 35px 35px;
+}
+
+.Basiccomponent .website-card-internal {
+  padding: 2%;
+}
+
+.Basiccomponent h3 {
+  font-size: 50px;
+}
+
+.Basiccomponent h5 {
+  font-size: xx-large;
+}
+
+.Basiccomponent .BasiccomponentSectionOne img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  width: auto;
+}
+
+.Basiccomponentcol1 .website-card-internal {
+  padding: 2%;
+}
+
+.Basiccomponentcol1 h3 {
+  font-size: 50px;
+}
+
+.Basiccomponentcol1 h5 {
+  font-size: xx-large;
+}
+
+.Basiccomponentcol1 .Basiccomponentcol1Section h1 {
+  font-size: large;
+  width: 50%;
+}
+
+.Basiccomponentcol1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
+
+.Basiccomponentcol2 .specialh1 h1 {
+  font-size: large;
+}
+.Basiccomponentcol2 .AirDrop h5 {
+  color: #f95c30;
+}
+
+.Basiccomponentcol2 .AirDrop h5 {
+  color: #f95c30;
+}
+.Basiccomponentcol2 .website-card-internal {
+  padding: 2%;
+}
+
+.Basiccomponentcol2 .Basiccomponentcol2Section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  width: auto;
+}
+
+.Hero-Text {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  width: ;
+}
+
+.Phone .website-card-external {
+  height: 30r em;
+}
+
+.Phone h3 {
+  color: #027fff;
+  font-size: 50px;
+}
+
+.Phone h5 {
+  color: #0983ff;
+  font-size: xx-large;
+}
+
+.h1textpadding {
+  font-size: 3rem;
+
+  padding: 20%;
+}
+.spec h5 {
+  margin-top: 0;
+}
+
+.Messages h3 {
+  color: #3d44c3;
+  font-size: 50px;
+}
+
+.Messagesectionone .website-card-internal {
+  padding: 3%;
+}
+
+.Messagesectionone h5 {
+  color: #3d44c3;
+  font-size: xx-large;
+}
+
+.Messagesectionone h1 {
+  font-size: 1.5rem;
+}
+.Messagesectionone .website-card-internal img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
+
+.Messagesectiontwo .website-card-internal {
+  padding: 3%;
+}
+
+.Messagesectiontwo h5 {
+  color: #3d44c3;
+  font-size: xx-large;
+}
+
+.Messagesectiontwo h1 {
+  font-size: 1.5rem;
+}
+.Messagesectiontwo .website-card-internal img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
+
+.Messagesectionthree .website-card-internal {
+  padding: 3%;
+}
+
+.Messagesectionthree h5 {
+  color: #3d44c3;
+  font-size: xx-large;
+}
+
+.Messagesectionthree .website-card-internal img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
+
+.Messagesectionfour .website-card-internal {
+  padding: 3%;
+}
+
+.Messagesectionfour h5 {
+  color: #3d44c3;
+  font-size: xx-large;
+}
+
+.Messagesectionfour h1 {
+  font-size: 1.5rem;
+  width: 70%;
+}
+.Messagesectionfour .website-card-internal img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
+.Stickers .website-card-internal {
+  padding: 5%;
+}
+.Stickers img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
+
+.Stickers h3 {
+  color: #26c2ac;
+  font-size: 50px;
+}
+
+.Stickers h5 {
+  color: #26c2ac;
+  font-size: xx-large;
+}
+
+.Stickerssectiontwo h1 {
+  font-size: large;
+}
+
+.Stickerssectiontwo .effect-sticker {
+  background: rgb(51, 168, 170);
+  background: linear-gradient(
+    180deg,
+    rgba(51, 168, 170, 1) 0%,
+    rgba(97, 237, 219, 1) 100%
+  );
+  color: white;
+}
+
+.Facetime .website-card-internal {
+  padding: 5%;
+}
+.FaceTime .FaceTimessectionone img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
+
+.FaceTime h3 {
+  color: #29d246;
+  font-size: 50px;
+}
+
+.FaceTime h5 {
+  color: #29d246;
+  font-size: xx-large;
+}
+
+.FaceTimesectiontwo .effect-FaceTime {
+  background-image: url("./images/gesture.jpg");
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+.FaceTimesectiontwo .effect-FaceTime h1 {
+  font-size: 23px;
+  padding: 2%;
+  font-weight: 700;
+}
+
+.FaceTimesectiontwo h1 {
+  font-size: 25px;
+  padding: 2%;
+  margin-bottom: 15%;
+}
+
+.Standby .website-card-internal {
+}
+.Standby .website-card-external img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
+
+.Standby h3 {
+  color: #e71ee6;
+  font-size: 50px;
+}
+
+.Standby h5 {
+  color: #e71ee6;
+  font-size: xx-large;
+}
+
+.Standby h1 {
+  font-size: large;
+  width: 50%;
+}
+
+.InteractiveWidgets h3 {
+  color: #fb4d66;
+}
+
+.InteractiveWidgets h5 {
+  color: #fb4d66;
+}
+
+.Basiccomponentcol1 .AirDrop h3 {
+  color: #f95c30;
+}
+
+.Basiccomponentcol1 .AirDrop h5 {
+  color: #f95c30;
+}
+
+.Airdropcardbg .website-card-internal {
+  background-image: url("./images/wifi_transfer.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.Basiccomponentcol2Group .AirDrop .card-two {
+  background-image: url("./images/wifi_transfer.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.Basiccomponentcol2Group .AirDrop .card-two p {
+  font-size: 3rem;
+  padding: 20%;
+  font-weight: 600;
+}
+
+.Basiccomponentcol2Group .AirDrop h5 {
+  color: #f95c30;
+}
+.Basiccomponentcol2Group .AirDrop .card-two img {
+  display: none;
+}
+
+.Journal h3,
+.Journal h5 {
+  color: #085bd3;
+}
+
+.JournalSectiontwo .website-card-internal {
+  padding: 3%;
+}
+.JournalSectiontwo .specialh1 h1 {
+  font-size: large;
+}
+
+.Basiccomponentcol2Group .Journal .card .card-two {
+  background: rgb(38, 38, 40);
+  background: linear-gradient(
+    180deg,
+    rgba(38, 38, 40, 1) 0%,
+    rgba(80, 80, 81, 1) 100%
+  );
+  color: white;
+  border-radius: 35px;
+}
+
+.Basiccomponentcol2Group .Journal .card-two p {
+  font-size: 3rem;
+  padding: 20%;
+  font-weight: 600;
+}
+
+.Keyboard h3,
+.Keyboard h5 {
+  color: #0c9d46;
+}
+
+.Basiccomponentcol2Group .Keyboard .card .card-two img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14%;
+}
+
+.Basiccomponentcol1 .SafariPasswords h3,
+.Basiccomponentcol1 .SafariPasswords h5,
+.Basiccomponentcol2Group .SafariPasswords h5,
+.Basiccomponentcol2Group .SafariPasswordsbg h5 {
+  color: #027fff;
+}
+
+.Basiccomponentcol2Group .SafariPasswordsbg .card-two p {
+  font-size: 2rem;
+  padding: 20%;
+  font-weight: 600;
+}
+
+.Basiccomponentcol2Group .SafariPasswordsbg .card .card-two {
+  background-color: #027fff;
+  color: white;
+  border-radius: 35px;
+}
+
+.Basiccomponentcol2Group {
+  margin: 1%;
+}
+.Basiccomponentcol2Group .card {
+  background-color: white;
+  border: none;
+  margin: 1%;
+  border-radius: 35px !important;
+}
+
+.Basiccomponentcol2Group .card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
+
+.Basiccomponentcol1 .Music h3,
+.Basiccomponentcol1 .Music h5 {
+  color: #6e21e6;
+}
+
+.Airplay .card-one {
+  background: rgb(36, 145, 154);
+  background: linear-gradient(
+    180deg,
+    rgba(36, 145, 154, 1) 0%,
+    rgba(98, 238, 220, 1) 100%
+  );
+}
+
+.Airplay .card-one p {
+  font-size: 2.5rem;
+  padding: 20%;
+  font-weight: 600;
+  color: white;
+}
+
+.Basiccomponentcol2Group .Airplay .card-two {
+  background-image: url("./images/hotel.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 800px;
+  border-radius: 35px !important;
+}
+.Basiccomponentcol2Group .Airplay .card-two p {
+  color: white;
+  font-size: x-large;
+}
+
+.Basiccomponentcol1 .AirPods .Basiccomponentcol1Section {
+  background-image: url("./images/adjustments_startfram.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 700px;
+  border-radius: 35px !important;
+}
+
+.Moremore img {
+  height: 64px;
+  width: 64px;
+}
+
+.Moremore .card {
+  border: none;
+  background-color: #f5f5f7 !important;
+}
+
+.AirPodsAirPods .AirPods h3,
+.AirPodsAirPods .AirPods h5 {
+  color: #00d436;
+}
+
+.MapsMaps .Maps h3,
+.MapsMaps .Maps h5 {
+  color: #1b88fe;
+}
+
+.SpotlightSpotlight .Spotlight h3,
+.SpotlightSpotlight .Spotlight h5 {
+  color: #6e3afe;
+}
+
+.Spotlight .card-two p {
+  font-size: 2.5rem;
+  padding: 20%;
+  font-weight: 600;
+  color: #f5f5f7;
+}
+
+.Spotlight .card-two {
+  background: rgb(49, 56, 63);
+  background: linear-gradient(
+    0deg,
+    rgba(7, 103, 199, 0.301) 0%,
+    rgb(45, 21, 179) 100%
+  );
+  border-radius: 35px;
+}
+.HealthHealth .Health h3 {
+  color: #00d436;
+}
+.Health .BasiccomponentSectionOne .website-card-external {
+  background: rgb(130, 196, 70);
+  background: linear-gradient(
+    198deg,
+    rgba(130, 196, 70, 1) 0%,
+    rgba(186, 213, 153, 1) 100%
+  );
+}
+
+.Health .BasiccomponentSectionOne .website-card-external h5,
+.Health .BasiccomponentSectionOne .website-card-external h1 {
+  color: white;
+}
+
+.PrivacyPrivacy .Privacy h3,
+.PrivacyPrivacy .Privacy h5 {
+  color: #027fff;
+}
+
+.Privacy2 .card-one {
+  background: rgb(28, 127, 243);
+  background: linear-gradient(
+    198deg,
+    rgba(28, 127, 243, 1) 0%,
+    rgba(26, 182, 249, 1) 100%
+  );
+  color: white;
+}
+
+.Privacy2 .card-one p {
+  font-size: 2.5rem;
+  padding: 20%;
+  font-weight: 600;
+}
+
+.Privacy2 .card-two {
+  background: #2e2e2e;
+
+  color: white;
+  border-radius: 35px;
+}
+
+.Privacy2 .card-two p {
+  font-size: x-large;
+  font-weight: 800;
+  color: white;
+}
+
+.Journal .card-two .card-two-IMG-TWO {
+  display: none;
+}
+
+.Basiccomponentcol2Group .Keyboard .card-two .card-two-IMG-ONE {
+  display: none !important ;
+}
+
+.SafariPasswords .card-two .card-two-IMG-ONE {
+  display: none;
+}
+
+.SafariPasswordsbg .card-two .card-two-IMG-TWO {
+  display: none;
+}
+
+.Airplay .card-two .card-two-IMG-ONE,
+.Airplay .card-two .card-two-IMG-TWO {
+  display: none;
+}
+
+.AirPods .card-two .card-two-IMG-ONE {
+  display: none;
+}
+
+.Spotlight .card-two .card-two-IMG-TWO {
+  display: none;
+}
+.Privacy .card-two .card-two-IMG-ONE,
+.Privacy2 .card-two .card-two-IMG-ONE {
+  display: none;
+}
+
+li {
+  text-align: left;
+}
+
+.UpdateUpdate p {
+  font-size: 2.5rem;
+  padding: 20%;
+  font-weight: 600;
+}
+
+.Ipados h5 {
+  text-align: center !important;
+  width: 100%;
+  padding-top: 200px;
+}
+
+.Ipados h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .Hero-Text {
+    width: 100%;
+  }
+
+  .h1textpadding {
+    font-size: 2rem;
+
+    padding: 20%;
+  }
+
+  .Standby h1 {
+    width: 100%;
+  }
+
+  .Basiccomponentcol1 .Basiccomponentcol1Section h1 {
+    width: 100%;
+  }
+  .Basiccomponentcol2Group .AirDrop .card-two p {
+    font-size: 2rem;
+    padding: 20%;
+    font-weight: 600;
+  }
+}
+.FulllistBasiccomponent .BasiccomponentSectionOne .website-card-external {
+  background-image: url("./images/compatible_devices.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  border-radius: 35px !important;
+  color: white;
+  padding-top: 10%;
 }
